@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+.header-main{
+    width: 100%;
+    height: 60px;
+    background-color: orangered;
+    position: fixed;
+    top: 0px;
+    
+
+
+
+    
+
+}
+.header-main-logo{
+    width: fit-content;
+    height: 100%;
+    padding-left: 60px;
+    display: flex;
+    
+    
+}
+
+.header-main img{
+    width: 55px;
+    align-self: center;
+}
+
+.header-main-nav{
+    width: fit-content;
+    height: 100%;
+    margin-left: 15px
+    
+    
+}
+.header-main ul{
+    display: flex;
+    gap: 15px;
+    line-height: 60px;
+}
+
+.header-nav ul li{
+    display: inline;
+    float: left;
+
+}
+
+.header-nav ul li a{
+    padding: 0 10px;
+    line-height: 60px;
+    color: greenyellow;
+    
+}
+
+.header-icons{
+    width: 120px;
+    height: 100%;
+    background-color: red;
+    
+}
+
+.image-container{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+nav a:hover{
+    background-color: black;
+    color: aliceblue
+}
+
+.menu-icon{
+    display: none;
+    padding-right: 10px;
+}
+
+.menu-icon div{
+    width: 7px;
+    height: 2px;
+    background-color: whitesmoke;
+    margin-top: 4px;
+    padding-right: 10px;
+    border-radius: 2px;
+}
+
+.hero-section{
+    background-image: url(./photos\ d/student.jpg);
+    background-size: cover;
+    background-position:center;
+    padding: 80px 20px;
+    margin-top: 60px;
+    padding-top: 32px;
+    height: 350px;
+      
+}
+
+.hero-content p{
+    text-align: center;
+    color: rgb(192, 248, 80);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1rem;
+}
+
+.hero-content {
+    text-align: center;
+    color: rgb(225, 225, 8);
+    font-size: large;
+    
+}
+.cta-button{
+    background-color: rgb(230, 72, 14);
+    padding: 10px 15px;
+    border-radius: 25px;
+    color: rgb(235, 171, 171);
+
+
+    
+    
+}
+
+.cta-button:hover{
+    background-color: greenyellow;
+    color: gray;
+}
+
+/*subjects*/
+
+.subjects{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+h1{
+    font-size: 35px;
+    font-weight:600;
+    color: orange;
+}
+h3{
+    color: rgb(232, 79, 23);
+}
+p{
+    color: grey;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+/**/
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subject-col{
+    border: 1px rgb(52, 52, 240) solid;
+    width: 100%;
+    height: 235px;
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.subject-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+/*campus*/
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.campus-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.campus-col img{
+    width: 100%;
+    height: 380px;
+}
+
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.facilities-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.facilities-col img{
+    width: 100%;
+    height: 265px;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 30px 20px 10px;
+    margin-top: 40px;
+}
+
+.footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.footer-content h2{
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+
+/* links*/
+
+.footer-bottom{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.campus-col img{
+    width: 100%;
+    height: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:700px){
+    body{
+        
+    }
+    .row{
+        flex-direction: column;
+    }
+    .footer-content{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secondary School Website</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="Certificate.html">
+    <link rel="stylesheet" href="Admissions.html">
+    <link rel="stylesheet" href="About us.html">
+</head>
+<body>
+  <header class="header-main">
+    <div class="header-main-logo">
+      <img src="photos d/badge.png" alt="">
+      <nav class="header-main-nav">
+        <ul>
+          <li>
+              <a href="index.html">HOME</a>
+          </li>
+          <li>
+              <a href="About us.html">ABOUT US</a>
+          </li>
+          <li>
+              <a href="Admissions.html">ADMISSIONS</a>
+          </li>
+          <li>
+              <a href="Certificate.html">CERTIFICATES</a>
+          </li>
+          <li>
+            <a href="Contact.html">CONTACTS</a>
+        </li>
+        </ul>
+      </nav>
+    </div>
+    
+    <div class="header-main-sm">
+      <div class="header-main-sm-fb"></div>
+      <div class="header-main-sm-in"></div>
+    </div>
+
+  </header>
+
+  <section class="hero-section">
+    <div class="hero-content">
+      
+    
+    <h1>Welcome To Mumbwa High School</h1>
+
+      
+      
+    <p>Mumbwa high school is a premier institution dedicated to academic excellence, character development, and holistic education. Established in [year]. Exploring knowledge, shaping character and nuturing dreams at our higher secondary school. A pathway to excellence and a journey of discovery. <br></p><br><br>
+    <a href="Admissions.html" class="cta-button">Apply Now</a>
+
+  </div>
+  </section>
+
+   
+  <section class="subjects">
+      <h1>subjects we offer</h1>
+      <p>We provide a diverse range of subjects designed to meet the interest and goals of all pupils. whether you're passionate about siences, the arts, or business, our curriculum supports both academic excellence and personal growth. Explore our subjects areas to find out what inspires you.</p>
+
+    <div class="row">
+        <div class="subject-col">
+          <h3>pure sciences</h3>
+          <p>Our Pure Sciences program includes Physics, Chemistry, and Biology. Pupils develop a strong foundation in scientific principles, critical thinking, and practical laboratory skills.</p> 
+        </div> 
+        <div class="subject-col">
+          <h3>Art & Music</h3>
+          <p>This program nurtures creativity and self-expression through visual arts, music theory, and perfomance. Pupils Explore various techniques, instruments, and artistic styles, prepsring them for creative industries or personal enrichment.</p> 
+        </div> 
+        <div class="subject-col">
+          <h3>Accounts</h3>
+          <p>Our Accounts program introduces pupils to the basics/fundamentals of financial literacy, bookkeeping, and business principles. It lays the groundwork for careers in accounting, business managent, and enterpreneuship.</p> 
+        </div>  
+    </div>
+  </section>
+
+  <!--campus-->
+  <section class="campus">
+    <h1>Our Local school</h1>
+    <p>Our school is a vibrant, pupil-centered learning community commited to academic excellence and character development. Located in the heart of our community, we provide a safe and supportive environment where pupils grow intellectually, socially, and emotionaly. With dedicated teachers, we provide learners for succes in school and beyond.</p>
+    <div class="row">
+      <div class="campus-col">
+        <img src="/gallery/sch-surr.jpg" alt="">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="campus-col">
+        <img src="/gallery/sch-surr.jpg" alt="">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+      </div><div class="campus-col">
+        <img src="/gallery/sch-surr.jpg" alt="">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+      </div>
+    </div>
+  
+ 
+  </section>
+
+  <section class="facilities">
+    <h1>Our facilities</h1>
+<p>Our well-stocked library is a quiet and resourceful space that encourages reading, research, and independent learning. It offers a wide selection of books, reference materials, educational magazines, and digital resources. Pupils can access computers for academic use, and our liberian is always available to assist with research and book selection.</p>
+
+<div class="row">
+  <div class="facilities-col">
+    <img src="/gallery/jazz.jpg" alt="">
+    <h3>Art and Music</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+  </div>
+  <div class="facilities-col">
+    <img src="/gallery/pure-sci.jpg" alt="">
+    <h3>Pure science lab</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+  </div><div class="facilities-col">
+    <img src="/photos d/accounts.jpg" alt="">
+    <h3>Accounts lab</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+  </div>
+</div>
+
+</section>
+
+<footer><div class="footer-content">
+  <div class="footer-left">
+    <h2>Mumbwa High School</h2>
+    <p>Empowering pupils for a brighter future</p>
+  </div>
+
+  
+   <div class="social-icons">
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-i-instagram"></i></a>
+    <a href="#"><i class="fab fa-x-"></i></a>
+   </div>
+</div>
+
+<div class="footer-right">
+  <h2>Contact us</h2>
+  <p>Email: info@Mumbwahighschool.edu</p>
+  <p>Phone: +260-973-308-771</p>
+  <p>Location: 124 School lane, compound, country</p>
+
+</div>
+
+<div class="footer-bottom">
+  <p>&copy; 2025 Mumbwa High School.All rights reserved</p>
+</div>
+</footer>
+
+<script src="js/script.js"></script>
+<script>document.getElementById('certificateForm')?.addEventListener('submit', function(e) {
+  e.preventDefault();
+  const admissionNumber = document.getElementById('admissionNumber').value.trim();
+
+  if (admissionNumber !== "") {
+    document.getElementById('studentName').textContent = "Student #" + admissionNumber;
+    document.getElementById('certificateSection').style.display = 'block';
+  }
+});</script>
+
+
+    
+    
+</body>
+</html>
